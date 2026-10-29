@@ -1,0 +1,43 @@
+# 실제 서버 로그와 분석 결과 (IP, 시리얼, 계정 정보가 들어 있으므로 절대 올리지 않는다)
+sample log/
+samples/
+reports/
+*_report.html
+install_check_*.html
+*.tzz
+*.tgz
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.zip
+*.7z
+
+# 실행 기록
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# 자동 생성한 실행 폴더와 배포 ZIP
+dist/
+
+# 편집기·OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# 로컬 작업물 및 분리한 Git 저장소
+tmp/
+output/
+repositories/
+
+# Local data, temporary work and portfolio artifacts
+tmp/
+output/
+repositories/
+.env
+.env.*
+*.pem
+*.key
